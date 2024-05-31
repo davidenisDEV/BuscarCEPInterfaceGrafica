@@ -2,7 +2,7 @@ from PySimpleGUI import PySimpleGUI as sg
 from pycep import PyCep
 
 # Layout
-sg.theme('TanBlue')
+sg.theme('SystemDefault')
 layout = [
     [sg.Text('Digite seu CEP', font=('Helvetica', 12)), sg.Input(key='cep', size=(10, 1), font=('Helvetica', 12))],
     [sg.Checkbox('Salvar CEP?', font=('Helvetica', 12))],
